@@ -2012,7 +2012,42 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+}
+
+.row .col-sm-12.text-center{
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-sm-12.text-center p{
+    font-size: large;
+    text-align: center;
+    width: 65%;
+}
+
+.row .col-xs-12.col-md-8.col-md-offset-2.text-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row .col-xs-12.col-md-8.col-md-offset-2.text-center .citation{
+    font-size: medium;
+    width: 55%;
+    font-style: italic;
+}
+
+.row .col-xs-12.col-md-8.col-md-offset-2.text-center .auteur{
+    font-size: medium;
+    width: 55%;
+}
+
+.container.bloc-lg .row .col-sm-12.text-center p{
+    font-size: large;
+    text-align: center;
+    width: 45%;
 }
 
 .col-lg-1,
