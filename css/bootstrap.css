@@ -2041,6 +2041,7 @@ pre code {
 .row .col-xs-12.col-md-8.col-md-offset-2.text-center .auteur{
     font-size: medium;
     width: 400px;
+    font-weight: bold;
 }
 
 .container.bloc-lg .row .col-sm-12.text-center p{
@@ -2060,6 +2061,7 @@ pre code {
 
 .row .infos p{
     color: #FFFF!important;
+    font-size: medium;
 }
 
 
