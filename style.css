@@ -784,7 +784,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #eb7c49!important;
     color: #000!important;
 }
 
@@ -811,10 +811,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
