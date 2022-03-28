@@ -1390,7 +1390,7 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
@@ -2031,6 +2031,10 @@ pre code {
     width: 500px;
 }
 
+.row .col-sm-12 .mg-md.text-center.tc-white{
+    color: #000;
+}
+
 .row .col-xs-12.col-md-8.col-md-offset-2.text-center{
     display: flex;
     align-items: center;
@@ -2053,6 +2057,11 @@ pre code {
     font-size: large;
     text-align: center;
     width: 350px;
+}
+
+.container.bloc-lg .row{
+    display: flex;
+    justify-content: center;
 }
 
 .row .infos{
@@ -3211,10 +3220,10 @@ output {
 }
 
 .form-control:focus {
-    border-color: #66afe9;
+    border-color: #F3976C;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), #F3976C;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075),#F3976C;
 }
 
 .form-control::-moz-placeholder {
@@ -3281,6 +3290,11 @@ input[type=search] {
 
 .form-group {
     margin-bottom: 15px
+}
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .checkbox,
@@ -5306,7 +5320,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
+}
+
+.navbar-nav li .contact{
+    text-decoration: overline #F3976C;
 }
 
 @media (max-width:767px) {

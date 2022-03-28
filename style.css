@@ -44,8 +44,23 @@ a:hover {
     padding-right: 0;
 }
 
-.bloc-lg {
-    padding-top: 35px;
+.bloc .container .col-sm-6{
+    margin-top: -20px;
+    padding-bottom: 25px;
+    width: 70%;
+}
+
+.bloc .container .col-sm-6 #form_1{
+    font-size: medium;
+}
+
+.texture-paper .bloc-lg {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.bgc-white.l-bloc .bloc-md{
+    padding-top: 5px;
 }
 
 .bloc-md {
@@ -91,7 +106,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -285,7 +299,9 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: #F3976C!important
 }
+
 
 .navbar {
     margin-bottom: 0;
@@ -676,10 +692,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -720,6 +732,10 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+}
+
+.row .tight-width-whitespace{
+    font-size: 18px;
 }
 
 h1 {
@@ -775,8 +791,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000;
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -805,7 +822,7 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
+    color: #F3976C!important;
     border-color: #364577!important;
 }
 
