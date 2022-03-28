@@ -2049,6 +2049,20 @@ pre code {
     width: 350px;
 }
 
+.row .infos{
+    justify-content: center;
+    text-align: center;
+}
+
+.row .infos .agence .nom{
+    color: #FFFF!important;
+}
+
+.row .infos p{
+    color: #FFFF!important;
+}
+
+
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
