@@ -2010,6 +2010,11 @@ pre code {
     margin-left: auto
 }
 
+.bloc-blanc{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .row {
     margin-right: -15px;
     margin-left: -15px;
