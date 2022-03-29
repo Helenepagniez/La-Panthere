@@ -1985,6 +1985,14 @@ pre code {
     margin-left: auto
 }
 
+@media (max-width:500px){
+    .container.bloc-lg .row{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
 @media (min-width:768px) {
     .container {
         width: 750px
@@ -2018,6 +2026,14 @@ pre code {
 .row {
     margin-right: -15px;
     margin-left: -15px;
+}
+
+.row .col-sm-12 .center-block{
+    margin-top: 20px;
+}
+
+.row .col-sm-12 .infos .agence img{
+    margin-top: 20px;
 }
 
 .row .col-sm-12.text-center{
@@ -2077,7 +2093,6 @@ pre code {
     color: #FFFF!important;
     font-size: medium;
 }
-
 
 .col-lg-1,
 .col-lg-10,

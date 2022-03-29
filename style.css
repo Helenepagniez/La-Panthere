@@ -791,9 +791,16 @@ h4 {
 }
 
 .tc-white {
-    color: #000;
+    color: #F3976C!important;
 }
 
+.container.bloc-lg .row .col-sm-12 .hero-bloc-text{
+    color: #000!important;
+}
+
+.container.bloc-lg .row .col-sm-12 .tight-width-whitespace{
+    color: #000!important;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -835,7 +842,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+h3.mg-md.text-center{
+    color: #F3976C!important;
 }
 
 @media (max-width: 1024px) {
