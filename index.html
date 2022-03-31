@@ -24,7 +24,15 @@
 
     
 	<!-- Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){window.dataLayer.push(arguments);}
+		gtag('js', new Date());
 
+		gtag('config', 'GA_MEASUREMENT_ID');
+		</script>
 	<!-- Analytics END -->
     
 </head>
@@ -39,9 +47,7 @@
 
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 							<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-							<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
@@ -108,7 +114,7 @@
 								<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 							</div>
 							<h3 class="mg-md text-center">
-								&nbsp;Stratégie
+								Stratégie
 							</h3>
 							<p class="text-center ">
 								Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre <strong> vos objectifs commerciaux</strong> afin de vous proposer le <strong> meilleur </strong> design possible.<br>
