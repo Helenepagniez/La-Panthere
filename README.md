@@ -55,3 +55,6 @@ Un document PDF du rapport d’analyse SEO du site, utilisant le modèle fourni,
 Un document TXT contenant le lien vers le repertoire GitHub du code source complet du site amélioré ;
 
 Un document PDF du rapport d’optimisation comprenant une comparaison des résultats (y compris de la vitesse de chargement et l’accessibilité).
+
+# Lancer l'application
+Afin de lancer l'application, il suffit de cliquer sur le lien.
